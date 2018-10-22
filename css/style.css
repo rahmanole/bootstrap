@@ -10,11 +10,11 @@
     .lg-height{
         height:300px
     }
-
+    
     .hotJob-lg-height{
         height: 100px;
     }
-
+    
     .trend-lg-height{
         height:180px
     }
@@ -32,9 +32,25 @@
     .md-height{
         height:300px
     }
-
+    
     .hotJob-md-height{
         height: auto;
+    }
+    
+    .hide-md{
+        display: none;
+    }
+    
+    .md-ml{
+        margin-left: 15px;
+    }
+    
+    .md-mr{
+        margin-right: 15px;
+    }
+    
+    .md-mt{
+        margin-top:20px;
     }
 }
 
@@ -163,12 +179,12 @@ a{
     width: 100%;
 }
 
-
 .slider1{
-    background-image: url("../img/slider_2.jpg");
+    
     height: auto;
     width: 100%;
 }
+
 
 
 
@@ -308,6 +324,10 @@ a{
     background-color: #fffde7;
 }
 
+.govtJob a:link{
+    text-decoration: none;
+}
+
 .govtJob h4{
     font-size: 17px;
     color:#2F64A3;
@@ -317,7 +337,7 @@ a{
     margin: 10px 0 4px 0;
 }
 
-.govtJobName a{
+.govtJobName a:link{
     text-decoration: none;
 }
 
@@ -346,14 +366,6 @@ a{
 
 
 
-.htJb-card:hover{
-    z-index:1;
-    position:absolute;
-    background: #fff;
-    height: auto;
-    box-shadow:0 4px 6px rgba(0,0,0,.35);
-    width: 300px;  
-}
 
 .hotJob h4{
     color:#2F64A3;
@@ -387,7 +399,7 @@ a{
     height: 40px;
     padding-bottom: 5px;
     overflow: hidden;
-
+    
 }
 
 .htJbContent h5{
@@ -395,10 +407,7 @@ a{
     color:#2f64a3;
 }
 
-.htJb-card:hover ul{
-    display: block;
-    height: auto;
-}
+
 
 .htJb-card h5{
     font-size: 13px;
